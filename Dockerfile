@@ -10,5 +10,5 @@ RUN npm install n8n-nodes-mcp-client
 # Volte para o usuário node padrão
 USER node
 
-# ADICIONE ESTA LINHA: Define o comando padrão para iniciar o n8n
-CMD ["n8n"]
+# ADICIONE ESTA LINHA: Define o comando padrão com o caminho completo
+CMD ["/usr/local/bin/n8n"]
